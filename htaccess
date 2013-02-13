@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_URI}  (\.png|\.jpg|\.gif|\.jpeg|\.bmp)$
+RewriteRule (.*)  img.php [QSA]
